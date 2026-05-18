@@ -28,9 +28,9 @@ st.markdown("""
 
    .main-header {
         font-size: 2.5rem;
-        font-weight: 700;
+
         background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-        -webkit-background-clip: text;
+
         -webkit-text-fill-color: transparent;
         margin-bottom: 0.5rem;
     }
@@ -51,15 +51,12 @@ st.markdown("""
     }
 
    .stButton > button:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+
+
     }
 
    .css-1d391kg {
         background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
-    }
-
-    div[data-testid="stMetricValue"] {
         font-size: 1.8rem;
         font-weight: 700;
     }
